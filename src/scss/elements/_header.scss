@@ -1,0 +1,28 @@
+.header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__nav {
+    
+    &-list {
+        display: flex;
+        
+        & li {
+            margin-left:20px;
+        }
+    }
+    &-link{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #8E9696;
+        font-weight: 600;
+        
+        &:hover{
+            color: $color-black;
+        }
+    }
+}
+
